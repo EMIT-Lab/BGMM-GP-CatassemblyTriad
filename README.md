@@ -18,11 +18,16 @@ triad-env\Scripts\activate    # Windows
 ```
 
 2. Install dependencies:
+```bash
 pip install numpy pandas scikit-learn matplotlib plotly kaleido
+```
 or:
+```bash
 uv add numpy
+```
 
 ## Project Structure
+```bash
 ├── data/                    # Input datasets
 │   ├── data.csv               # Primary triad descriptors
 │   └── data - forplot.csv     # BGMM labeled data for GP classification
@@ -33,6 +38,7 @@ uv add numpy
 ├── reports/                 # Generated analysis reports
 ├── output/                  # Visualizations and plots
 └── pyproject.toml           # Dependency configuration
+```
 
 ## Usage
 1. Run BGMM Analysis
