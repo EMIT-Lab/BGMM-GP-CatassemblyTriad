@@ -23,7 +23,6 @@ def get_clf(x_data, y_data):
 def main():
     csv_path = r".\data\data_sorted_by_No_in_article.csv"
     value, type = read_data(csv_path)
-    value[:, 2] = 0.35 * value[:, 2]
     clf = get_clf(value, type)
     label = clf.predict(value)
     print(label)
@@ -31,7 +30,7 @@ def main():
     # Define 3D space range and sampling density
     X_MIN, X_MAX = -70, 15
     Y_MIN, Y_MAX = 10, 70
-    Z_MIN, Z_MAX = -25, 55
+    Z_MIN, Z_MAX = -70, 160
     SAMPLE_DEN = 0.25  # 0.5 high definition
     
     # Define colors for different classes
@@ -147,7 +146,9 @@ def main():
                 eye=dict(x=-0.7752781775459654, y=1.4528183583539271, z=1.2609368632102829),
                 center=dict(x=0, y=0, z=0),
                 up=dict(x=0, y=0, z=1)
-            )
+            ),
+            aspectmode='manual',
+            aspectratio=dict(x=1, y=1, z=0.85)
         ),
         # title='3D Classification with Data Points',
         width=1600,  #6400 Increase width for higher resolution
