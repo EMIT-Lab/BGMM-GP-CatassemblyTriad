@@ -345,7 +345,6 @@ def main():
     
     # Extract feature data (columns 2-5: attchability, controlability, detachability)
     X = df.iloc[:, 2:5].values
-    X[:, 1] = 0.35 * X[:, 1]  # Adjust scaling factor
     
     print(f"Data loaded: {X.shape[0]} samples, {X.shape[1]} features")
     print(f"Data range - Attachability: [{X[:, 0].min():.2f}, {X[:, 0].max():.2f}]")
@@ -426,3 +425,4 @@ if __name__ == "__main__":
     # Run main program
     main()
     
+
