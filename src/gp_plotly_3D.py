@@ -30,7 +30,7 @@ def main():
     # Define 3D space range and sampling density
     X_MIN, X_MAX = -70, 15
     Y_MIN, Y_MAX = 10, 70
-    Z_MIN, Z_MAX = -70, 160
+    Z_MIN, Z_MAX = -57, 143
     SAMPLE_DEN = 0.25  # 0.5 high definition
     
     # Define colors for different classes
@@ -180,3 +180,4 @@ def main():
 if __name__ == '__main__':
     main()
     
+
