@@ -12,9 +12,9 @@ This repository contains the source code for the Bayesian Gaussian Mixture Model
 ## Installation
 1. Create virtual environment:
 ```bash
-python -m venv triad-env
-source triad-env/bin/activate  # Linux/Mac
-triad-env\Scripts\activate    # Windows
+python -m venv .venv
+source .venv/bin/activate  # Linux/Mac
+.venv\Scripts\activate    # Windows
 ```
 
 2. Install dependencies:
@@ -29,8 +29,7 @@ uv add numpy
 ## Project Structure
 ```bash
 ├── data/                    # Input datasets
-│   ├── data.csv               # Primary triad descriptors
-│   └── data - forplot.csv     # BGMM labeled data for GP classification
+│   └── data_sorted_by_No_in_article.csv
 ├── src/
 │   ├── bgmm.py                # Bayesian GMM implementation
 │   ├── elbo_plot.py           # ELBO convergence visualization
@@ -62,3 +61,4 @@ python src/gp_plotly_3D.py
 ```
 Generates:
     GP 3D visualizations in output/
+
