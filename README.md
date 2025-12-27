@@ -62,3 +62,10 @@ python src/gp_plotly_3D.py
 Generates:
     GP 3D visualizations in output/
 
+## Citation
+If you find this code useful in your research, please cite our paper:
+
+**Catassembly Triad: A Catalytic Framework for Enantioselective Chiral Molecular Assembly**  
+Zhihao Li; Xuehai Huang; Yansong Jiang; Wei Zeng; Ding Zou; Xue Dong; Liulin Yang; Xiaoyu Cao; Zhongqun Tian; Yu Wang.  
+*Journal of the American Chemical Society* **2025**, *jacs.5c16840*.  
+https://doi.org/10.1021/jacs.5c16840
