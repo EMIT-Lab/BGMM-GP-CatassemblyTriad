@@ -63,9 +63,13 @@ Generates:
     GP 3D visualizations in output/
 
 ## Citation
-If you find this code useful in your research, please cite our paper:
-
-**Catassembly Triad: A Catalytic Framework for Enantioselective Chiral Molecular Assembly**  
-Zhihao Li; Xuehai Huang; Yansong Jiang; Wei Zeng; Ding Zou; Xue Dong; Liulin Yang; Xiaoyu Cao; Zhongqun Tian; Yu Wang.  
-*Journal of the American Chemical Society* **2025**, *jacs.5c16840*.  
-https://doi.org/10.1021/jacs.5c16840
+If you find this code useful in your research, please cite the following paper:
+```bibtex
+@article{Li2025Catassembly,
+    title = {Catassembly Triad: A Catalytic Framework for Enantioselective Chiral Molecular Assembly},
+    author = {Li, Zhihao and Huang, Xuehai and Jiang, Yansong and Zeng, Wei and Zou, Ding and Dong, Xue and Yang, Liulin and Cao, Xiaoyu and Tian, Zhongqun and Wang, Yu},
+    journal = {Journal of the American Chemical Society},
+    year = {2025},
+    doi = {10.1021/jacs.5c16840},
+    url = {https://doi.org/10.1021/jacs.5c16840}
+}
